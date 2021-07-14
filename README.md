@@ -10,3 +10,4 @@ Detection of credit card frauds using 5 different Machine Learning techniques.
 
    Contains code for fraud detection which is an unsupervised learning method.
 
+3. LogisticRegression, KNClassifier, GaussianNB.ipynb
