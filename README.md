@@ -15,3 +15,6 @@ Detection of credit card frauds using 5 different Machine Learning techniques.
 4. Random_forest.ipynb
 
    Contains code used to train the fraud classifier by training dataset, building multiple decision trees, and then having the output of the decision trees determine a prediction.
+
+5. XGBoost Method.ipynb
+
