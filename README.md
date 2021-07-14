@@ -1,6 +1,9 @@
 # credit-card-fraud-detection
 Detection of credit card frauds using 5 different Machine Learning techniques.
 
+# Dataset
+Contains the link to the “Credit Card Fraud Detection” dataset that is publicly available on Kaggle.
+
 # Models
 1. CatBoost.ipynb
 
