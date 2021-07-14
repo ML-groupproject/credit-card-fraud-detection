@@ -21,3 +21,4 @@ Contains the link to the “Credit Card Fraud Detection” dataset that is publi
 
 5. XGBoost Method.ipynb
 
+# Data Visualisation
