@@ -21,5 +21,7 @@ Contains the link to the “Credit Card Fraud Detection” dataset that is publi
 
 5. XGBoost Method.ipynb
 
-# Data Visualiz
-ation
+# Data Visualization
+Contains the pictorial representation of basic descriptive statistics for the results obtained from the methods mentioned above.
+
+
