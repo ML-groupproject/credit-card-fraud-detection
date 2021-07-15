@@ -40,7 +40,7 @@ Visualisation of the dataset was done by using histogram distribution and all th
 7. GaussianNB:
    Gaussian Naive Bayes is a variant of Naive Bayes that follows Gaussian normal distribution and supports continuous data. Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It is a simple classification technique, but has high functionality.
   
-# CONCLUSION  
+# Conclusion
 The dataset was highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. To resolve class imbalance, we used Synthetic Minority Over-sampling Technique (SMOTE) and applied XGBoost on the oversampled dataset. Also used Catboost model to resolve imbalance in dataset.
 For measuring the accuracy score of each of the algorithms, we calculated and plotted area under ROC curve. 
 #### ROC AOC of all the models:
