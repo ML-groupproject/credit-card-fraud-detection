@@ -1,9 +1,10 @@
 # credit-card-fraud-detection
-Aim: To detect fraudulent credit card transactions using different Machine Learning models by training them to learn patterns behind fraudulent behaviour.
+##### Aim: 
+To detect fraudulent credit card transactions using different Machine Learning models by training them to learn patterns behind fraudulent behaviour.
 
 # Dataset
 Contains the link to the “Credit Card Fraud Detection” dataset that is publicly available on Kaggle.
-Description of the dataset:
+##### Description of the dataset:
 The dataset contains transactions made by credit cards in September 2013 by European cardholders.
 This dataset presents transactions that occurred in two days, where there is 492 frauds out of 284,807 transactions.  
 
@@ -42,13 +43,13 @@ Visualisation of the dataset was done by using histogram distribution and all th
 # CONCLUSION  
 The dataset was highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. To resolve class imbalance, we used Synthetic Minority Over-sampling Technique (SMOTE) and applied XGBoost on the oversampled dataset. Also used Catboost model to resolve imbalance in dataset.
 For measuring the accuracy score of each of the algorithms, we calculated and plotted area under ROC curve. 
-ROC AOC of all the models:
-Isolation forest: 0.94
-Catboost: 0.7
-XG Boost: 0.99
-Logistic Regression: 0.7
-Gaussian Naive Bayes: 0.9
-KNN Classifier: 0.577
+##### ROC AOC of all the models:
+1. Isolation forest: 0.946
+2. Catboost: 0.973
+3. XG Boost: 0.99
+4. Logistic Regression: 0.771
+5. Gaussian Naive Bayes: 0.8919
+6. KNN Classifier: 0.50775
 
 Concluding, XGBoost model including SMOTE applied on the model as the efficient model.
 
