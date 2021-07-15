@@ -3,19 +3,19 @@ Aim: To detect fraudulent credit card transactions using different Machine Learn
 
 # Dataset
 Contains the link to the “Credit Card Fraud Detection” dataset that is publicly available on Kaggle.
-Features:
+Description of the dataset:
 The dataset contains transactions made by credit cards in September 2013 by European cardholders.
 This dataset presents transactions that occurred in two days, where there is 492 frauds out of 284,807 transactions.  
 
 It contains only numerical input variables which are the result of a PCA transformation of confidential transactions and locations of transactions. 
 Features V1, V2, … V28 are the principal components obtained with PCA.
-The features which have not been transformed with PCA are 'Time' and 'Amount'. 
+The features which have not been transformed with PCA are 'Time', 'Class' and 'Amount'. 
 Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. 
-The feature 'Amount' is the transaction Amount. 
-Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+Feature 'Amount' is the transaction Amount. 
+Feature 'Class' is the target variable and it takes value 1 in case of fraud and 0 otherwise.
 
 # Data Visualization
-Visualisation of the dataset by using histogram distribution and correlation of different features using heatmap.
+Visualisation of the dataset was done by using histogram distribution and all the features were correlated using heatmap.
 
 # Models
 1. Random Forest:
@@ -40,8 +40,18 @@ Visualisation of the dataset by using histogram distribution and correlation of 
    Gaussian Naive Bayes is a variant of Naive Bayes that follows Gaussian normal distribution and supports continuous data. Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It is a simple classification technique, but has high functionality.
   
 # CONCLUSION  
-The dataset was highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. To 
-Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
+The dataset was highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. To resolve class imbalance, we used Synthetic Minority Over-sampling Technique (SMOTE) and applied XGBoost on the oversampled dataset. Also used Catboost model to resolve imbalance in dataset.
+For measuring the accuracy score of each of the algorithms, we calculated and plotted area under ROC curve. 
+ROC AOC of all the models:
+Isolation forest: 0.94
+Catboost: 0.7
+XG Boost: 0.99
+Logistic Regression: 0.7
+Gaussian Naive Bayes: 0.9
+KNN Classifier: 0.577
+
+Concluding, XGBoost model including SMOTE applied on the model as the efficient model.
+
 
 
 
