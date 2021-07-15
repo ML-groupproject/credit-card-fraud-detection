@@ -1,5 +1,5 @@
-# credit-card-fraud-detection
-#### Aim: 
+# Credit card fraud detection
+# Aim: 
 To detect fraudulent credit card transactions using different Machine Learning models by training them to learn patterns behind fraudulent behaviour.
 
 # Dataset
